@@ -1,0 +1,51 @@
+/* 
+    Document   : wGotop
+    Created on : 2013-12-31, 10:37:02
+    Author     : stephen.leon
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*悬浮*/
+.wgotop1 {
+    width: 22px;
+    height: 55px;
+    position: fixed;
+    right: 10px;
+    bottom: 270px;
+    margin-left: 495px;
+    _position: absolute;
+    _top: 2000px;
+}
+
+.wgotop {
+    display: block;
+    position: fixed;
+    right: 10px;
+    bottom: 200px;
+    z-index: 9999;
+    height: 60px;
+    width: 60px;
+    text-indent: -999999px;
+    overflow: hidden;
+    background: url("top.png") no-repeat scroll 18px 21px #3B5998;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in 0s, opacity 0.3s ease-out 0s;
+}
+
+ a.wgotop:hover{
+    display: block;
+    position: fixed;
+    right: 10px;
+    bottom: 200px;
+    z-index: 9999;
+    height: 60px;
+    width: 60px;
+    text-indent: -999999px;
+    overflow: hidden;
+    background: url("top.png") no-repeat scroll 18px 21px #2A4888;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in 0s, opacity 0.5s ease-out 0s;
+}

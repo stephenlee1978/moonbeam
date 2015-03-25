@@ -1,0 +1,3 @@
+http://gw.api.tbsandbox.com/router/rest
+
+http://gw.api.taobao.com/router/rest

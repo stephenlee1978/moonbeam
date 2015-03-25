@@ -1,0 +1,6 @@
+php /path/to/yiic.php test
+php -q /var/www/protected/yiic Clear
+
+php -q /var/www/protected/yiic Collect
+
+sudo service cron restart  

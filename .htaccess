@@ -1,0 +1,3 @@
+<ifmodule mod_deflate.c>
+AddOutputFilter DEFLATE html xml php js css
+</ifmodule>
