@@ -219,35 +219,60 @@ class uploadInfo {
 
         $addinfo = $this->setAddInfo();
         if (isset($addinfo{0})) {
-            $desc .= CHtml::openTag('h3', array('style' => 'border-bottom: 1px solid rgb(229, 229, 229);')) . '商家说明</h3>';
+            $desc .= CHtml::openTag('div',array('style' => 'background-color: #FFF;'));
+            $desc .= CHtml::openTag('div',array('style' => 'border:1px solid #E5E6E9;border-top-left-radius: 8px;border-top-right-radius:8px;background-color: #3B5999;'));
+            $desc .= CHtml::openTag('h3', array('style' => 'color:#fff;margin: 5px;')) . '商家说明</h3>';
+            $desc .= CHtml::closeTag('div');
             $desc .= "<p>{$addinfo}</p>";
+            $desc .= CHtml::closeTag('div');
         }
 
-        $desc .= CHtml::openTag('h3', array('style' => 'border-bottom: 1px solid rgb(229, 229, 229);')) . '商品展示</h3>';
+        $desc .= CHtml::openTag('div',array('style' => 'background-color: #FFF;'));
+            $desc .= CHtml::openTag('div',array('style' => 'border:1px solid #E5E6E9;border-top-left-radius: 8px;border-top-right-radius:8px;background-color: #3B5999;'));
+            $desc .= CHtml::openTag('h3', array('style' => 'color:#fff;margin: 5px;')) . '商品展示</h3>';
+            $desc .= CHtml::closeTag('div');
         foreach ($productImgs as $codes) {
             foreach ($codes as $img) {
                 $desc .= "<p align='center'>" . CHtml::image($img, '', array('border' => 0, 'style' => 'max-width:790px')) . "</p>";
             }
         }
+        $desc .= CHtml::closeTag('div');
 
+        
         if (isset($this->attributes['desc']{0})) {
-            $desc .= CHtml::openTag('h3', array('style' => 'border-bottom: 1px solid rgb(229, 229, 229);')) . '商品信息</h3>';
+            $desc .= CHtml::openTag('div',array('style' => 'background-color: #FFF;'));
+            $desc .= CHtml::openTag('div',array('style' => 'border:1px solid #E5E6E9;border-top-left-radius: 8px;border-top-right-radius:8px;background-color: #3B5999;'));
+            $desc .= CHtml::openTag('h3', array('style' => 'color:#fff;margin: 5px;')) . '商品信息</h3>';
+            $desc .= CHtml::closeTag('div');
             $desc .= "<p>{$this->attributes['desc']}</p>";
+            $desc .= CHtml::closeTag('div');
         }
 
         if (isset($this->attributes['details']{0})) {
-            $desc .= CHtml::openTag('h3', array('style' => 'border-bottom: 1px solid rgb(229, 229, 229);')) . '商品细节</h3>';
+            $desc .= CHtml::openTag('div',array('style' => 'background-color: #FFF;'));
+            $desc .= CHtml::openTag('div',array('style' => 'border:1px solid #E5E6E9;border-top-left-radius: 8px;border-top-right-radius:8px;background-color: #3B5999;'));
+            $desc .= CHtml::openTag('h3', array('style' => 'color:#fff;margin: 5px;')) . '商品细节</h3>';
+            $desc .= CHtml::closeTag('div');
             $desc .= "<p>{$this->attributes['details']}</p>";
+            $desc .= CHtml::closeTag('div');
         }
 
         if (isset($this->attributes['designer']{0})) {
-            $desc .= CHtml::openTag('h3', array('style' => 'border-bottom: 1px solid rgb(229, 229, 229);')) . '设计师</h3>';
-            $desc .= "<p>{$this->attributes['designer']}</p>";
+            $desc .= CHtml::openTag('div',array('style' => 'background-color: #FFF;'));
+            $desc .= CHtml::openTag('div',array('style' => 'border:1px solid #E5E6E9;border-top-left-radius: 8px;border-top-right-radius:8px;background-color: #3B5999;'));
+            $desc .= CHtml::openTag('h3', array('style' => 'color:#fff;margin: 5px;')) . '设计师</h3>';
+            $desc .= CHtml::closeTag('div');
+            $desc .= "<p>{$this->attributes['details']}</p>";
+            $desc .= CHtml::closeTag('div');
         }
 
         if (isset($this->attributes['sizeFitContainer']{0})) {
-            $desc .= CHtml::openTag('h3', array('style' => 'border-bottom: 1px solid rgb(229, 229, 229);')) . '尺寸介绍</h3>';
-            $desc .= "<p>{$this->attributes['sizeFitContainer']}</p><p>";
+            $desc .= CHtml::openTag('div',array('style' => 'background-color: #FFF;'));
+            $desc .= CHtml::openTag('div',array('style' => 'border:1px solid #E5E6E9;border-top-left-radius: 8px;border-top-right-radius:8px;background-color: #3B5999;'));
+            $desc .= CHtml::openTag('h3', array('style' => 'color:#fff;margin: 5px;')) . '尺寸描述</h3>';
+            $desc .= CHtml::closeTag('div');
+            $desc .= "<p>{$this->attributes['sizeFitContainer']}</p>";
+            $desc .= CHtml::closeTag('div');
         }
 
         return $desc;
