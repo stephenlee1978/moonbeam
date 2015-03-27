@@ -50,6 +50,19 @@ class QFHtmlParser {
         return false;
     }
     
+    public function loadPostURL($url, $cookie,$param,$referer) {
+        if (!isset($url{0}))
+            return false;
+
+        $this->html = curl_post_cookie($url, $cookie,$param,$referer);
+        trace($this->html);
+        if (isset($this->html{0}) > 0) {
+            return $this->loadHTML();
+        }
+
+        return false;
+    }
+    
     public function loadFormHtml($html,$encoding = "UTF-8") {
         //$this->html = mb_convert_encoding($this->html, 'HTML-ENTITIES', $encoding);
         if(isset($html{0})){

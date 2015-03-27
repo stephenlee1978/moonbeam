@@ -1,8 +1,20 @@
 <?php
+
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
+
+function saveFile($path, $data) {
+    @chmod($path, 0666);
+
+    $fp = fopen($path, 'w');
+    if ($fp !== false && fwrite($fp, $data) !== false) {
+        $bRet = true;
+    }
+
+    fclose($fp);
+}
 
 function tempfile($prefix) {
     return tempnam(sys_get_temp_dir(), $prefix);

@@ -104,16 +104,29 @@ function curl_get_cookie($url, $cookie = '',$referer='') {
     return $response;
 }
 
-function curl_post_cookie($url, $cookie, $param) {
+function curl_post_cookie($url, $cookie, $fields,$referer='') {
     $ch = curl_init(); //初始化
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_POST, 1);
 
-    if (isset($param{0})) {
-        curl_setopt($ch, CURLOPT_POSTFIELDS, $param);
+    $fields_string='';
+    foreach($fields as $key=>$value) { $fields_string .= $key.'='.$value.'&'; }
+    rtrim($fields_string, '&');
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $fields_string);
+    
+    if (strpos($url, "https") !== false) {
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
+     }
+     
+    if(isset($referer{0})){
+        curl_setopt($ch, CURLOPT_HEADER, 0);
+        curl_setopt($ch, CURLOPT_REFERER, $referer);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    }else{
+        curl_setopt($ch, CURLOPT_HEADER, 0);
     }
-    curl_setopt($ch, CURLOPT_HEADER, 0);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    
     curl_setopt($ch, CURLOPT_COOKIEFILE, $cookie);
     curl_setopt($ch, CURLOPT_COOKIEJAR, $cookie);
     curl_setopt($ch, CURLOPT_TIMEOUT, LOAD_HTML_TIMEOUT);
@@ -121,7 +134,7 @@ function curl_post_cookie($url, $cookie, $param) {
     if ($reps === false) {
         trace(curl_error($ch));
     }
-
+    trace($reps);
     curl_close($ch);
     unset($ch);
 

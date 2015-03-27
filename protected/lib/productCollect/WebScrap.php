@@ -1,6 +1,7 @@
 <?php
 include dirname(dirname(__FILE__)).'/http/QFHtmlParser.php';
 include dirname(dirname(__FILE__)).'/http/qffunction.php';
+include dirname(dirname(__FILE__)).'/http/curl_multi.php';
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
@@ -137,6 +138,40 @@ abstract class WebScrap {
         }
     }
     
+    protected function downmultiImage($imageLinks) {
+        $savename = $this->createDir();
+        
+        foreach ($imageLinks as $key=>$imageLink) {
+            $savename .= '/' . getImageName($imageLink);
+            if (file_exists($savename) && filesize($savename) > 0) {
+                unset($imageLinks[$key]);
+            }
+        }
+        reset($imageLinks);
+        
+        if(count($imageLinks)<=0) return;
+        
+        $thread = new curl_multi();
+        $thread->setUrlList($imageLinks);
+        $reps = $thread->execute();
+        foreach ($reps as $key => $rep) {
+            if($rep!== false){
+                saveFile($savename.$imageLinks[$key], $rep);
+                if (filesize($savename) > 500 * 1024)
+                    resizeJpg($savename, 336, 596);
+            }
+        }
+    }
+    
+    protected function createDir() {
+        $savename = dirname(Yii::app()->basePath) . '/product/' . $this->id;
+        if (!is_dir($savename)) {
+            if (!mkdir($savename, 0777))
+                throw new CException('创建目录失败');
+            @chmod($savename, 0777);
+        }
+        return $savename;
+    }
     //下载图片
     protected function downImage($links) {
         $bRet = false;
@@ -146,14 +181,8 @@ abstract class WebScrap {
         if (!$this->id)
             return $bRet;
 
-        $savename = dirname(Yii::app()->basePath) . '/product/' . $this->id;
-        if (!is_dir($savename)) {
-            if (!mkdir($savename, 0777))
-                throw new CException('创建目录失败');
-            @chmod($savename, 0777);
-        }
+        $savename = $this->createDir();
 
-        Yii::import('lib.functions');
         $savename .= '/' . getImageName($links);
 //message('下载图片:'.$links);
         if (!file_exists($savename) || filesize($savename) <= 0) {
@@ -164,15 +193,8 @@ abstract class WebScrap {
             $img_data = curl_exec($ch);
             curl_close($ch);
             if ($img_data !== false) {
-                @chmod($savename, 0666);
-
-                $fp = fopen($savename, 'w');
-                if ($fp !== false && fwrite($fp, $img_data) !== false) {
-                    $bRet = true;
-                }
-
-                fclose($fp);
-
+                saveFile($savename, $img_data);
+                
                 if (filesize($savename) > 500 * 1024)
                     resizeJpg($savename, 336, 596);
             }else {
