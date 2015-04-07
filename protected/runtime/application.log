@@ -1397,3 +1397,501 @@ in F:\workspace\moonbeam\protected\lib\productCollect\Shopbop.php (504)
 in F:\workspace\moonbeam\protected\lib\productCollect\Shopbop.php (345)
 in F:\workspace\moonbeam\protected\lib\productCollect\Shopbop.php (370)
 in F:\workspace\moonbeam\protected\lib\productCollect\CollectClass.php (41)
+2015/03/30 08:47:06 [error] [php] MemcachePool::get():  (F:\workspace\moonbeam\framework\caching\CMemCache.php:149)
+Stack trace:
+#0 F:\workspace\moonbeam\framework\web\CUrlManager.php(219): CMemCache->get()
+#1 F:\workspace\moonbeam\framework\web\CUrlManager.php(206): CUrlManager->processRules()
+#2 F:\workspace\moonbeam\framework\base\CModule.php(387): CUrlManager->init()
+#3 F:\workspace\moonbeam\framework\base\CApplication.php(522): CWebApplication->getComponent()
+#4 F:\workspace\moonbeam\framework\web\CWebApplication.php(140): CWebApplication->getUrlManager()
+#5 F:\workspace\moonbeam\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 F:\workspace\moonbeam\index.php(19): CWebApplication->run()
+REQUEST_URI=/
+in F:\workspace\moonbeam\index.php (19)
+2015/03/30 08:48:38 [info] [application] value=68.9878*{value}
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 08:48:38 [info] [application] value={city}代购{value}十天到货
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 08:48:38 [info] [application] value=城市{city}包税代购 买家需预定有发票。
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 08:48:38 [info] [application] value=大甩卖啦{value}
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 08:49:17 [info] [application] value=68.9878*{value}
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 08:49:17 [info] [application] value={city}代购{value}十天到货
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 08:49:18 [info] [application] value=城市{city}包税代购 买家需预定有发票。
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 08:49:18 [info] [application] value=大甩卖啦{value}
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 08:58:11 [info] [application] value=68.9878*{value}
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 08:58:11 [info] [application] value={city}代购{value}十天到货
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 08:58:11 [info] [application] value=城市{city}包税代购 买家需预定有发票。
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 08:58:11 [info] [application] value=大甩卖啦{value}
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 08:58:33 [info] [application] value=68.9878*{value}
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 08:58:33 [info] [application] value={city}代购{value}十天到货
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 08:58:34 [info] [application] value=城市{city}包税代购 买家需预定有发票。
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 08:58:34 [info] [application] value=大甩卖啦{value}
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 09:03:30 [error] [php] include(ExceptionClass.php): failed to open stream: No such file or directory (F:\workspace\moonbeam\framework\YiiBase.php:427)
+Stack trace:
+#0 F:\workspace\moonbeam\protected\controllers\AttributeController.php(79): spl_autoload_call()
+#1 F:\workspace\moonbeam\framework\web\actions\CInlineAction.php(49): AttributeController->actionUpdate()
+#2 F:\workspace\moonbeam\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(133): AttributeController->runAction()
+#4 F:\workspace\moonbeam\protected\components\AuthController.php(32): CFilterChain->run()
+#5 F:\workspace\moonbeam\framework\web\filters\CInlineFilter.php(58): AttributeController->filterAccessControl()
+#6 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 F:\workspace\moonbeam\framework\web\CController.php(291): CFilterChain->run()
+#8 F:\workspace\moonbeam\framework\web\CController.php(265): AttributeController->runActionWithFilters()
+#9 F:\workspace\moonbeam\framework\web\CWebApplication.php(282): AttributeController->run()
+#10 F:\workspace\moonbeam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 F:\workspace\moonbeam\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 F:\workspace\moonbeam\index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php/attribute/update
+in F:\workspace\moonbeam\protected\controllers\AttributeController.php (79)
+in F:\workspace\moonbeam\protected\components\AuthController.php (32)
+in F:\workspace\moonbeam\index.php (19)
+2015/03/30 09:06:33 [error] [php] Undefined offset: 0 (F:\workspace\moonbeam\protected\controllers\AttributeController.php:79)
+Stack trace:
+#0 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(133): AttributeController->runAction()
+#1 F:\workspace\moonbeam\protected\components\AuthController.php(32): CFilterChain->run()
+#2 F:\workspace\moonbeam\framework\web\filters\CInlineFilter.php(58): AttributeController->filterAccessControl()
+#3 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 F:\workspace\moonbeam\framework\web\CController.php(291): CFilterChain->run()
+#5 F:\workspace\moonbeam\framework\web\CController.php(265): AttributeController->runActionWithFilters()
+#6 F:\workspace\moonbeam\framework\web\CWebApplication.php(282): AttributeController->run()
+#7 F:\workspace\moonbeam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 F:\workspace\moonbeam\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 F:\workspace\moonbeam\index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php/attribute/update
+in F:\workspace\moonbeam\protected\controllers\AttributeController.php (79)
+in F:\workspace\moonbeam\protected\components\AuthController.php (32)
+in F:\workspace\moonbeam\index.php (19)
+2015/03/30 09:09:42 [error] [php] Undefined offset: 0 (F:\workspace\moonbeam\protected\controllers\AttributeController.php:79)
+Stack trace:
+#0 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(133): AttributeController->runAction()
+#1 F:\workspace\moonbeam\protected\components\AuthController.php(32): CFilterChain->run()
+#2 F:\workspace\moonbeam\framework\web\filters\CInlineFilter.php(58): AttributeController->filterAccessControl()
+#3 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 F:\workspace\moonbeam\framework\web\CController.php(291): CFilterChain->run()
+#5 F:\workspace\moonbeam\framework\web\CController.php(265): AttributeController->runActionWithFilters()
+#6 F:\workspace\moonbeam\framework\web\CWebApplication.php(282): AttributeController->run()
+#7 F:\workspace\moonbeam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 F:\workspace\moonbeam\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 F:\workspace\moonbeam\index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php/attribute/update
+in F:\workspace\moonbeam\protected\controllers\AttributeController.php (79)
+in F:\workspace\moonbeam\protected\components\AuthController.php (32)
+in F:\workspace\moonbeam\index.php (19)
+2015/03/30 09:11:13 [error] [exception.Exception] exception 'Exception' with message '设置错误:' in F:\workspace\moonbeam\protected\controllers\AttributeController.php:79
+Stack trace:
+#0 F:\workspace\moonbeam\framework\web\actions\CInlineAction.php(49): AttributeController->actionUpdate()
+#1 F:\workspace\moonbeam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 F:\workspace\moonbeam\protected\components\AuthController.php(32): CFilterChain->run()
+#4 F:\workspace\moonbeam\framework\web\filters\CInlineFilter.php(58): AuthController->filterAccessControl(Object(CFilterChain))
+#5 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 F:\workspace\moonbeam\framework\web\CController.php(291): CFilterChain->run()
+#7 F:\workspace\moonbeam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 F:\workspace\moonbeam\framework\web\CWebApplication.php(282): CController->run('update')
+#9 F:\workspace\moonbeam\framework\web\CWebApplication.php(141): CWebApplication->runController('attribute/updat...')
+#10 F:\workspace\moonbeam\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 F:\workspace\moonbeam\index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/attribute/update
+HTTP_REFERER=http://localhost:9007/index.php/attribute/index
+---
+2015/03/30 09:13:16 [error] [php] Array to string conversion (F:\workspace\moonbeam\protected\controllers\AttributeController.php:79)
+Stack trace:
+#0 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(133): AttributeController->runAction()
+#1 F:\workspace\moonbeam\protected\components\AuthController.php(32): CFilterChain->run()
+#2 F:\workspace\moonbeam\framework\web\filters\CInlineFilter.php(58): AttributeController->filterAccessControl()
+#3 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 F:\workspace\moonbeam\framework\web\CController.php(291): CFilterChain->run()
+#5 F:\workspace\moonbeam\framework\web\CController.php(265): AttributeController->runActionWithFilters()
+#6 F:\workspace\moonbeam\framework\web\CWebApplication.php(282): AttributeController->run()
+#7 F:\workspace\moonbeam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 F:\workspace\moonbeam\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 F:\workspace\moonbeam\index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php/attribute/update
+in F:\workspace\moonbeam\protected\controllers\AttributeController.php (79)
+in F:\workspace\moonbeam\protected\components\AuthController.php (32)
+in F:\workspace\moonbeam\index.php (19)
+2015/03/30 09:14:26 [error] [php] Array to string conversion (F:\workspace\moonbeam\protected\controllers\AttributeController.php:79)
+Stack trace:
+#0 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(133): AttributeController->runAction()
+#1 F:\workspace\moonbeam\protected\components\AuthController.php(32): CFilterChain->run()
+#2 F:\workspace\moonbeam\framework\web\filters\CInlineFilter.php(58): AttributeController->filterAccessControl()
+#3 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 F:\workspace\moonbeam\framework\web\CController.php(291): CFilterChain->run()
+#5 F:\workspace\moonbeam\framework\web\CController.php(265): AttributeController->runActionWithFilters()
+#6 F:\workspace\moonbeam\framework\web\CWebApplication.php(282): AttributeController->run()
+#7 F:\workspace\moonbeam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 F:\workspace\moonbeam\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 F:\workspace\moonbeam\index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php/attribute/update
+in F:\workspace\moonbeam\protected\controllers\AttributeController.php (79)
+in F:\workspace\moonbeam\protected\components\AuthController.php (32)
+in F:\workspace\moonbeam\index.php (19)
+2015/03/30 09:14:39 [error] [php] Array to string conversion (F:\workspace\moonbeam\protected\controllers\AttributeController.php:79)
+Stack trace:
+#0 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(133): AttributeController->runAction()
+#1 F:\workspace\moonbeam\protected\components\AuthController.php(32): CFilterChain->run()
+#2 F:\workspace\moonbeam\framework\web\filters\CInlineFilter.php(58): AttributeController->filterAccessControl()
+#3 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 F:\workspace\moonbeam\framework\web\CController.php(291): CFilterChain->run()
+#5 F:\workspace\moonbeam\framework\web\CController.php(265): AttributeController->runActionWithFilters()
+#6 F:\workspace\moonbeam\framework\web\CWebApplication.php(282): AttributeController->run()
+#7 F:\workspace\moonbeam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 F:\workspace\moonbeam\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 F:\workspace\moonbeam\index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php/attribute/update
+in F:\workspace\moonbeam\protected\controllers\AttributeController.php (79)
+in F:\workspace\moonbeam\protected\components\AuthController.php (32)
+in F:\workspace\moonbeam\index.php (19)
+2015/03/30 09:15:43 [error] [php] Array to string conversion (F:\workspace\moonbeam\protected\controllers\AttributeController.php:79)
+Stack trace:
+#0 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(133): AttributeController->runAction()
+#1 F:\workspace\moonbeam\protected\components\AuthController.php(32): CFilterChain->run()
+#2 F:\workspace\moonbeam\framework\web\filters\CInlineFilter.php(58): AttributeController->filterAccessControl()
+#3 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 F:\workspace\moonbeam\framework\web\CController.php(291): CFilterChain->run()
+#5 F:\workspace\moonbeam\framework\web\CController.php(265): AttributeController->runActionWithFilters()
+#6 F:\workspace\moonbeam\framework\web\CWebApplication.php(282): AttributeController->run()
+#7 F:\workspace\moonbeam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 F:\workspace\moonbeam\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 F:\workspace\moonbeam\index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php/attribute/update
+in F:\workspace\moonbeam\protected\controllers\AttributeController.php (79)
+in F:\workspace\moonbeam\protected\components\AuthController.php (32)
+in F:\workspace\moonbeam\index.php (19)
+2015/03/30 09:16:27 [error] [php] Array to string conversion (F:\workspace\moonbeam\protected\controllers\AttributeController.php:79)
+Stack trace:
+#0 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(133): AttributeController->runAction()
+#1 F:\workspace\moonbeam\protected\components\AuthController.php(32): CFilterChain->run()
+#2 F:\workspace\moonbeam\framework\web\filters\CInlineFilter.php(58): AttributeController->filterAccessControl()
+#3 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 F:\workspace\moonbeam\framework\web\CController.php(291): CFilterChain->run()
+#5 F:\workspace\moonbeam\framework\web\CController.php(265): AttributeController->runActionWithFilters()
+#6 F:\workspace\moonbeam\framework\web\CWebApplication.php(282): AttributeController->run()
+#7 F:\workspace\moonbeam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 F:\workspace\moonbeam\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 F:\workspace\moonbeam\index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php/attribute/update
+in F:\workspace\moonbeam\protected\controllers\AttributeController.php (79)
+in F:\workspace\moonbeam\protected\components\AuthController.php (32)
+in F:\workspace\moonbeam\index.php (19)
+2015/03/30 09:17:04 [error] [exception.Exception] exception 'Exception' with message '设置错误:' in F:\workspace\moonbeam\protected\controllers\AttributeController.php:79
+Stack trace:
+#0 F:\workspace\moonbeam\framework\web\actions\CInlineAction.php(49): AttributeController->actionUpdate()
+#1 F:\workspace\moonbeam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 F:\workspace\moonbeam\protected\components\AuthController.php(32): CFilterChain->run()
+#4 F:\workspace\moonbeam\framework\web\filters\CInlineFilter.php(58): AuthController->filterAccessControl(Object(CFilterChain))
+#5 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 F:\workspace\moonbeam\framework\web\CController.php(291): CFilterChain->run()
+#7 F:\workspace\moonbeam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 F:\workspace\moonbeam\framework\web\CWebApplication.php(282): CController->run('update')
+#9 F:\workspace\moonbeam\framework\web\CWebApplication.php(141): CWebApplication->runController('attribute/updat...')
+#10 F:\workspace\moonbeam\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 F:\workspace\moonbeam\index.php(19): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/attribute/update
+HTTP_REFERER=http://localhost:9007/index.php/attribute/index
+---
+2015/03/30 09:18:43 [info] [application] value=68.9878*{value}
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 09:18:43 [info] [application] value={city}代购{value}十天到货
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 09:18:43 [info] [application] value=城市{city}包税代购 买家需预定有发票。1：图片因拍照灯光拍摄限制可能会存在色差，如需最准确的颜色请在当地专柜确认好再代购，不接受以色差为理由的退换。
+2：我们很乐意在码数方面给买家建议，但是最终决定权在买家，请根据自己平时穿的码数选择，本店不接受码数不合适的退换理由。
+3：如出现严重质量问题，本店承担一切来回邮寄费用，但是品牌是不会百分百等于完美品质，走线，胶水，鞋子磨脚，鞋头稍微歪，小划痕等不属于严重质量问题，不接受退换。
+4: 本店代购所有产品都由国外代购网站直发香港，再由香港发邮政回内地，如有关税，须有买家负责。代购周期一般为1-2周左右。
+5：我们不提供小票，若对本店商品来源有任何怀疑，请不要拍下本店商品，本店诚信交易，从不售假。如强烈要求小票，本店可截图，也可拍照。
+6：已下单代购产品一律不接受退款，代购不是免费试衣间，请相互尊重，尊重卖家的劳动，望大家购物愉快！
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 09:18:43 [info] [application] value=大甩卖啦{value}
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 09:18:50 [info] [application] 美国
+in F:\workspace\moonbeam\protected\models\Attribute.php (118)
+in F:\workspace\moonbeam\protected\models\Product.php (50)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (72)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (106)
+2015/03/30 09:18:50 [info] [application] {city}代购{value}十天到货
+in F:\workspace\moonbeam\protected\models\Attribute.php (119)
+in F:\workspace\moonbeam\protected\models\Product.php (50)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (72)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (106)
+2015/03/30 09:18:57 [info] [application] value=795.00
+in F:\workspace\moonbeam\protected\lib\Functions.php (120)
+in F:\workspace\moonbeam\protected\models\ExchangeRate.php (74)
+in F:\workspace\moonbeam\protected\models\Product.php (265)
+in F:\workspace\moonbeam\protected\views\taobao\_single.php (38)
+2015/03/30 09:18:57 [info] [application] math={value}*6.35*1.1+60
+in F:\workspace\moonbeam\protected\lib\Functions.php (121)
+in F:\workspace\moonbeam\protected\models\ExchangeRate.php (74)
+in F:\workspace\moonbeam\protected\models\Product.php (265)
+in F:\workspace\moonbeam\protected\views\taobao\_single.php (38)
+2015/03/30 09:18:57 [info] [application] value=0.00
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\views\taobao\_base.php (50)
+2015/03/30 09:19:36 [info] [application] value=68.9878*{value}
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 09:19:36 [info] [application] value={city}代购{value}十天到货
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 09:19:36 [info] [application] value=城市{city}包税代购 买家需预定有发票。1：图片因拍照灯光拍摄限制可能会存在色差，如需最准确的颜色请在当地专柜确认好再代购，不接受以色差为理由的退换。
+2：我们很乐意在码数方面给买家建议，但是最终决定权在买家，请根据自己平时穿的码数选择，本店不接受码数不合适的退换理由。
+3：如出现严重质量问题，本店承担一切来回邮寄费用，但是品牌是不会百分百等于完美品质，走线，胶水，鞋子磨脚，鞋头稍微歪，小划痕等不属于严重质量问题，不接受退换。
+4: 本店代购所有产品都由国外代购网站直发香港，再由香港发邮政回内地，如有关税，须有买家负责。代购周期一般为1-2周左右。
+5：我们不提供小票，若对本店商品来源有任何怀疑，请不要拍下本店商品，本店诚信交易，从不售假。如强烈要求小票，本店可截图，也可拍照。
+6：已下单代购产品一律不接受退款，代购不是免费试衣间，请相互尊重，尊重卖家的劳动，望大家购物愉快！
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 09:19:36 [info] [application] value=大甩卖啦{value}
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 09:20:57 [info] [application] 美国
+in F:\workspace\moonbeam\protected\models\Attribute.php (118)
+in F:\workspace\moonbeam\protected\models\Product.php (50)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (72)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (106)
+2015/03/30 09:20:57 [info] [application] {city}代购{value}十天到货
+in F:\workspace\moonbeam\protected\models\Attribute.php (119)
+in F:\workspace\moonbeam\protected\models\Product.php (50)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (72)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (106)
+2015/03/30 09:20:57 [info] [application] value=795.00
+in F:\workspace\moonbeam\protected\lib\Functions.php (120)
+in F:\workspace\moonbeam\protected\models\ExchangeRate.php (74)
+in F:\workspace\moonbeam\protected\models\Product.php (265)
+in F:\workspace\moonbeam\protected\views\taobao\_single.php (38)
+2015/03/30 09:20:57 [info] [application] math={value}*6.35*1.1+60
+in F:\workspace\moonbeam\protected\lib\Functions.php (121)
+in F:\workspace\moonbeam\protected\models\ExchangeRate.php (74)
+in F:\workspace\moonbeam\protected\models\Product.php (265)
+in F:\workspace\moonbeam\protected\views\taobao\_single.php (38)
+2015/03/30 09:20:57 [info] [application] value=0.00
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\views\taobao\_base.php (50)
+2015/03/30 09:23:24 [info] [application] value=68.9878*{value}
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 09:23:24 [info] [application] value={city}代购{value}十天到货
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 09:23:24 [info] [application] value=城市{city}包税代购 买家需预定有发票。<br/>
+1：图片因拍照灯光拍摄限制可能会存在色差，如需最准确的颜色请在当地专柜确认好再代购，不接受以色差为理由的退换。<br/>
+2：我们很乐意在码数方面给买家建议，但是最终决定权在买家，请根据自己平时穿的码数选择，本店不接受码数不合适的退换理由。<br/>
+3：如出现严重质量问题，本店承担一切来回邮寄费用，但是品牌是不会百分百等于完美品质，走线，胶水，鞋子磨脚，鞋头稍微歪，小划痕等不属于严重质量问题，不接受退换。<br/>
+4: 本店代购所有产品都由国外代购网站直发香港，再由香港发邮政回内地，如有关税，须有买家负责。代购周期一般为1-2周左右。<br/>
+5：我们不提供小票，若对本店商品来源有任何怀疑，请不要拍下本店商品，本店诚信交易，从不售假。如强烈要求小票，本店可截图，也可拍照。<br/>
+6：已下单代购产品一律不接受退款，代购不是免费试衣间，请相互尊重，尊重卖家的劳动，望大家购物愉快！<br/>
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 09:23:24 [info] [application] value=大甩卖啦{value}
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableColumn.php (62)
+2015/03/30 09:24:08 [info] [application] 美国
+in F:\workspace\moonbeam\protected\models\Attribute.php (118)
+in F:\workspace\moonbeam\protected\models\Product.php (50)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (72)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (106)
+2015/03/30 09:24:08 [info] [application] {city}代购{value}十天到货
+in F:\workspace\moonbeam\protected\models\Attribute.php (119)
+in F:\workspace\moonbeam\protected\models\Product.php (50)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (72)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (106)
+2015/03/30 09:24:08 [info] [application] value=795.00
+in F:\workspace\moonbeam\protected\lib\Functions.php (120)
+in F:\workspace\moonbeam\protected\models\ExchangeRate.php (74)
+in F:\workspace\moonbeam\protected\models\Product.php (265)
+in F:\workspace\moonbeam\protected\views\taobao\_single.php (38)
+2015/03/30 09:24:08 [info] [application] math={value}*6.35*1.1+60
+in F:\workspace\moonbeam\protected\lib\Functions.php (121)
+in F:\workspace\moonbeam\protected\models\ExchangeRate.php (74)
+in F:\workspace\moonbeam\protected\models\Product.php (265)
+in F:\workspace\moonbeam\protected\views\taobao\_single.php (38)
+2015/03/30 09:24:08 [info] [application] value=0.00
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\views\taobao\_base.php (50)
+2015/03/30 09:24:57 [info] [application] 美国
+in F:\workspace\moonbeam\protected\models\Attribute.php (118)
+in F:\workspace\moonbeam\protected\models\Product.php (50)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (72)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (106)
+2015/03/30 09:24:57 [info] [application] {city}代购{value}十天到货
+in F:\workspace\moonbeam\protected\models\Attribute.php (119)
+in F:\workspace\moonbeam\protected\models\Product.php (50)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (72)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (106)
+2015/03/30 09:24:57 [info] [application] value=795.00
+in F:\workspace\moonbeam\protected\lib\Functions.php (120)
+in F:\workspace\moonbeam\protected\models\ExchangeRate.php (74)
+in F:\workspace\moonbeam\protected\models\Product.php (265)
+in F:\workspace\moonbeam\protected\views\taobao\_single.php (38)
+2015/03/30 09:24:57 [info] [application] math={value}*6.35*1.1+60
+in F:\workspace\moonbeam\protected\lib\Functions.php (121)
+in F:\workspace\moonbeam\protected\models\ExchangeRate.php (74)
+in F:\workspace\moonbeam\protected\models\Product.php (265)
+in F:\workspace\moonbeam\protected\views\taobao\_single.php (38)
+2015/03/30 09:24:57 [info] [application] value=0.00
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\views\taobao\_base.php (50)
+2015/03/30 09:25:07 [info] [application] 美国
+in F:\workspace\moonbeam\protected\models\Attribute.php (118)
+in F:\workspace\moonbeam\protected\models\Product.php (50)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (72)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (106)
+2015/03/30 09:25:07 [info] [application] {city}代购{value}十天到货
+in F:\workspace\moonbeam\protected\models\Attribute.php (119)
+in F:\workspace\moonbeam\protected\models\Product.php (50)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (72)
+in F:\workspace\moonbeam\protected\models\ProductEditForm.php (106)
+2015/03/30 09:25:07 [info] [application] percentOff=3
+in F:\workspace\moonbeam\protected\models\ExchangeRate.php (66)
+in F:\workspace\moonbeam\protected\models\Product.php (265)
+in F:\workspace\moonbeam\protected\views\taobao\_single.php (38)
+in F:\workspace\moonbeam\protected\views\taobao\edit.php (39)
+2015/03/30 09:25:08 [info] [application] value=0.00
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (134)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (146)
+in F:\workspace\moonbeam\protected\extensions\editable\EditableField.php (126)
+in F:\workspace\moonbeam\protected\views\taobao\_base.php (50)
+2015/04/02 16:49:16 [error] [php] Undefined index: pid (F:\workspace\moonbeam\protected\lib\productCollect\NetAPorter.php:217)
+Stack trace:
+#0 F:\workspace\moonbeam\protected\models\CollectForm.php(46): CollectClass->excute()
+#1 F:\workspace\moonbeam\protected\controllers\TaobaoController.php(232): CollectForm->excute()
+#2 F:\workspace\moonbeam\framework\web\actions\CInlineAction.php(49): TaobaoController->actionIndex()
+#3 F:\workspace\moonbeam\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(133): TaobaoController->runAction()
+#5 F:\workspace\moonbeam\protected\components\AuthController.php(32): CFilterChain->run()
+#6 F:\workspace\moonbeam\framework\web\filters\CInlineFilter.php(58): TaobaoController->filterAccessControl()
+#7 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 F:\workspace\moonbeam\framework\web\CController.php(291): CFilterChain->run()
+#9 F:\workspace\moonbeam\framework\web\CController.php(265): TaobaoController->runActionWithFilters()
+#10 F:\workspace\moonbeam\framework\web\CWebApplication.php(282): TaobaoController->run()
+#11 F:\workspace\moonbeam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 F:\workspace\moonbeam\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 F:\workspace\moonbeam\index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php/taobao/index
+in F:\workspace\moonbeam\protected\lib\productCollect\NetAPorter.php (217)
+in F:\workspace\moonbeam\protected\lib\productCollect\NetAPorter.php (69)
+in F:\workspace\moonbeam\protected\lib\productCollect\CollectClass.php (41)
+in F:\workspace\moonbeam\protected\models\CollectForm.php (46)
+2015/04/02 16:57:00 [error] [php] include(Uploadhistory.php): failed to open stream: No such file or directory (F:\workspace\moonbeam\framework\YiiBase.php:427)
+Stack trace:
+#0 F:\workspace\moonbeam\protected\lib\productCollect\CCollect.php(558): spl_autoload_call()
+#1 F:\workspace\moonbeam\protected\lib\productCollect\CollectClass.php(43): NetAPorter->updateUpload()
+#2 F:\workspace\moonbeam\protected\models\CollectForm.php(46): CollectClass->excute()
+#3 F:\workspace\moonbeam\protected\controllers\TaobaoController.php(232): CollectForm->excute()
+#4 F:\workspace\moonbeam\framework\web\actions\CInlineAction.php(49): TaobaoController->actionIndex()
+#5 F:\workspace\moonbeam\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(133): TaobaoController->runAction()
+#7 F:\workspace\moonbeam\protected\components\AuthController.php(32): CFilterChain->run()
+#8 F:\workspace\moonbeam\framework\web\filters\CInlineFilter.php(58): TaobaoController->filterAccessControl()
+#9 F:\workspace\moonbeam\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 F:\workspace\moonbeam\framework\web\CController.php(291): CFilterChain->run()
+#11 F:\workspace\moonbeam\framework\web\CController.php(265): TaobaoController->runActionWithFilters()
+#12 F:\workspace\moonbeam\framework\web\CWebApplication.php(282): TaobaoController->run()
+#13 F:\workspace\moonbeam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 F:\workspace\moonbeam\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 F:\workspace\moonbeam\index.php(19): CWebApplication->run()
+REQUEST_URI=/index.php/taobao/index
+in F:\workspace\moonbeam\protected\lib\productCollect\CCollect.php (558)
+in F:\workspace\moonbeam\protected\lib\productCollect\CollectClass.php (43)
+in F:\workspace\moonbeam\protected\models\CollectForm.php (46)
+in F:\workspace\moonbeam\protected\controllers\TaobaoController.php (232)

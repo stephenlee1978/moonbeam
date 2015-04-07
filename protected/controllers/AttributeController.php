@@ -1,5 +1,7 @@
 <?php
-
+/*
+ * 2015/03/30 stephenlee
+ */
 class AttributeController extends AuthController {
 
     public function actionIndex() {
@@ -75,7 +77,9 @@ class AttributeController extends AuthController {
             $modle = $this->loadModel($_POST['pk']);
             if($modle!==null){
                 $modle->setAttribute($_POST['name'], $_POST['value']);
-                $modle->save();
+                if(!$modle->setAttribute($_POST['name'], $_POST['value']) || !$modle->save()){
+                     throw new Exception('设置错误:');
+                }
             }
         }
     }

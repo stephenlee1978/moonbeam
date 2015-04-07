@@ -3,7 +3,7 @@
  * This is the model class for table "tbl_attribute".
  *
  * The followings are the available columns in table 'tbl_attribute':
- * 2014-11-21 15:45:00
+ * 2015/03/30 stephenlee
  */
 class Attribute extends CActiveRecord {
 
@@ -50,7 +50,7 @@ class Attribute extends CActiveRecord {
         return array(
             array('userID, property, pattern', 'required', 'message'=>'{attribute} 不能为空.'),
             array('id, userID,property', 'numerical', 'integerOnly' => true),
-            array('pattern', 'length', 'max' => 255),
+            array('pattern', 'length', 'max' =>65535),
             // The following rule is used by search().
             // Please remove those attributes that should not be searched.
             array('id, property, pattern, userID', 'safe', 'on' => 'search'),
