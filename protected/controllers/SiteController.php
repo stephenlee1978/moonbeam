@@ -33,7 +33,6 @@ class SiteController extends CController {
             throw new CHttpException(1978, '授权失败，获取code失败，请重试');
         }
 
-
         Yii::import('application.lib.http.Auth');
         $token_endpoint = Yii::app()->createAbsoluteUrl('/site/token');
         $auth = new Auth();
